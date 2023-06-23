@@ -11,6 +11,7 @@ import ViewLeave from './components/ViewLeave';
 import ViewComplaints from './components/ViewComplaints';
 import CreateComplaints from './components/CreateComplaints';
 import RoomDetails from './components/RoomDetails';
+import MessDetails from './components/MessDetails';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="view-complaints" element={<ViewComplaints />} />
         <Route path="create-complaints" element={<CreateComplaints />} />
         <Route path="room-details" element={<RoomDetails />} />
+        <Route path="mess-details" element={<MessDetails />} />
         {/* <Route path="*" element={<NoPage />} /> */}
       </Routes>
     </BrowserRouter>
