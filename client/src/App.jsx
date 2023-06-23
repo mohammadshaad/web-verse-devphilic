@@ -12,6 +12,9 @@ import ViewComplaints from './components/ViewComplaints';
 import CreateComplaints from './components/CreateComplaints';
 import RoomDetails from './components/RoomDetails';
 import MessDetails from './components/MessDetails';
+import FacultyLoginForm from './components/FacultyLogin';
+import FacultyRegister from './components/FacultyRegister';
+import StudentEvent from './components/StudentEvent';
 
 function App() {
   return (
@@ -28,6 +31,9 @@ function App() {
         <Route path="create-complaints" element={<CreateComplaints />} />
         <Route path="room-details" element={<RoomDetails />} />
         <Route path="mess-details" element={<MessDetails />} />
+        <Route path="faculty-login" element={<FacultyLoginForm />} />
+        <Route path="faculty-register" element={<FacultyRegister />} />
+        <Route path="student-event" element={<StudentEvent />} />
         {/* <Route path="*" element={<NoPage />} /> */}
       </Routes>
     </BrowserRouter>
