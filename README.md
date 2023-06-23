@@ -55,3 +55,10 @@
 
 10. **Student Mess Details (GET)**  
  ``` /api/v1/student/room-details/ ```
+
+11. **Faculty Register**  
+ ``` /api/v1/faculty/auth/register ```
+
+12. **Faculty Login**  
+ ``` /api/v1/faculty/auth/login ```
+
