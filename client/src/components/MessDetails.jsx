@@ -11,7 +11,7 @@ const RoomDetails = () => {
 
     const fetchRoomDetails = async () => {
         try {
-            const response = await axios.get('http://localhost:8000/api/v1/student/room-details/', {
+            const response = await axios.get('http://localhost:8000/api/v1/student/mess-details/', {
                 headers: {
                     'Authorization': 'Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwicmVnTm8iOiIyMUJDRTE1NDIiLCJuYW1lIjoiTW9oYW1tYWQgU2hhYWQiLCJibG9jayI6IkMiLCJyb2xlIjoic3R1ZGVudCIsImlhdCI6MTY4NzU1NjQwMiwiZXhwIjoxNjg3NjQyODAyfQ.dfQB2NvTCWujS9qzpGzBBkFo7UnCDr1opLXs-FFviwc',
                 },
@@ -34,7 +34,7 @@ const RoomDetails = () => {
 
     return (
         <div className="flex flex-col items-center justify-center h-screen w-screen">
-            <h1 className="text-2xl font-bold mb-4">Room Details</h1>
+            <h1 className="text-2xl font-bold mb-4">Mess Details</h1>
             {roomDetails ? (
                 <div className="border border-gray-400 rounded-md p-4">
                     {/* <h2 className="text-lg font-bold mb-2">Room Number: {roomDetails.roomNumber}</h2>

@@ -43,6 +43,15 @@
   
 6. **Student Leave (PUT)**  
  ``` /api/v1/student/leave/ ```
-  
 
+7. **Student Complaint (GET)**  
+ ``` /api/v1/student/complaint/ ```
  
+8. **Student Complaint (POST)**  
+ ``` /api/v1/student/complaint/ ```
+
+9. **Student Room Details (GET)**  
+ ``` /api/v1/student/room-details/ ```
+
+10. **Student Mess Details (GET)**  
+ ``` /api/v1/student/room-details/ ```
