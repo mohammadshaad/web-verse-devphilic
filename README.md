@@ -62,3 +62,8 @@
 12. **Faculty Login**  
  ``` /api/v1/faculty/auth/login ```
 
+13. **Student Event (GET)**  
+ ``` /api/v1/student/event/ ```
+
+14. **Student Event (POST)**  
+ ``` /api/v1/student/event/ ```
